@@ -45,6 +45,7 @@ android {
 dependencies {
 
     implementation (libs.showkase)
+    implementation(files("libs/gameUikit-release.aar"))
     ksp (libs.showkase.processor)
 
     implementation(libs.androidx.core.ktx)
